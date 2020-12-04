@@ -1,0 +1,73 @@
+@font-face {
+  font-family: Orbitron;
+  src: url("../Font/OrbitronBold.ttf") format("truetype");
+}
+html,
+body {
+  font-family: Orbitron;
+  background-color: lightgray;
+  margin: 0;
+  padding: 0;
+
+}
+
+.top-header{
+  background-color: rgb(57,57,57);
+  text-align: right;
+}
+
+.menu-item{
+  color:rgb(35, 172, 35);
+  padding: 15px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.menu-item:hover{
+  background-color: black;
+}
+
+.brand{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.main-content {
+  /*Expand image max*/
+  max-width: 700px;
+  margin: auto;
+}
+
+.box {
+  background-color: white;
+  padding: 20px;
+  margin: 30px;
+}
+
+.image {
+  width: 100%;
+}
+
+.button {
+  color: black;
+  background-color: lightgray;
+  padding: 10px;
+  /* no inline */
+  text-decoration: none;
+  display: inline-block;
+}
+
+.bottom-footer{
+  background-color: rgb(187, 187, 187);
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.box p{
+  color: grey;
+}
+.box a:hover{
+  background-color: gray;
+  
+}
